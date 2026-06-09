@@ -15,6 +15,7 @@ import {
   Linkedin, Mail, Phone, MapPin, Github, Award, GraduationCap,
   Briefcase, Cpu, Trophy, Languages, ArrowUpRight, Sparkles, ArrowDown, Star,
 } from "lucide-react";
+import jushitaImage from "@/assets/jushita.jpg";
 import jushitaAsset from "@/assets/jushita.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -336,7 +337,7 @@ function TiltPhoto() {
 
         <div className="relative m-[2px] rounded-[1.9rem] overflow-hidden">
           <img
-            src={jushitaAsset.url}
+            src={jushitaImage}
             alt="Jushita Pediredla"
             className="w-full h-auto object-cover aspect-[4/5] transition-transform duration-700 group-hover:scale-[1.06]"
           />
