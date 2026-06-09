@@ -1,5 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/client",
-  "framework": "other"
+  "outputDirectory": "dist/server",
+  "framework": "other",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/server.js"
+    }
+  ]
 }
