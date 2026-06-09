@@ -412,7 +412,7 @@ function Hero() {
             Portfolio · 2026 · Open to graduate roles
           </motion.div>
 
-          <h1 className="font-display text-6xl md:text-8xl leading-[0.95] mb-6">
+          <h1 className="font-sans font-semibold text-6xl md:text-8xl leading-[0.95] mb-6 tracking-tight">
             <span className="block" style={{ overflow: "hidden" }}>
               <motion.span
                 initial={{ y: "110%" }}
@@ -423,7 +423,7 @@ function Hero() {
                 Jushita
               </motion.span>
             </span>
-            <span className="block italic text-muted-foreground/80" style={{ overflow: "hidden", fontSize: "0.72em" }}>
+            <span className="block text-muted-foreground/80" style={{ overflow: "hidden", fontSize: "0.5em" }}>
               <motion.span
                 initial={{ y: "110%" }}
                 animate={{ y: 0 }}
